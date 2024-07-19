@@ -4,5 +4,9 @@ project(untitled)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(untitled main.cpp
+
+        adivinheonumero.cpp
         adivinheonumero.h
-        advinheonumero.cpp)
+        adivinheonumero.h
+        adivinheonumero.cpp
+        adivinheonumero.cpp)
