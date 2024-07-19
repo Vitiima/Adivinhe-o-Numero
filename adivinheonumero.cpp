@@ -1,4 +1,4 @@
-#include "advinheonumero.h"
+#include "adivinheonumero.h"
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
