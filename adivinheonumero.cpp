@@ -29,15 +29,15 @@ void adivinheonumero::promp() {
 void adivinheonumero::play() {
     char choice;
     do {
+        cin.clear();
         inter = rand() % 1000 + 1;
         cout << "Bem-vindo ao 'Adivinhe o numero'! Qual e o seu palpite?" << endl;
         promp();
         cout << "Deseja jogar novamente? Se sim, digite Y. Para sair, digite qualquer outra tecla." << endl;
         cin >> choice;
-        while (cin.fail() || (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N')) {
+        while (choice != 'y' && choice != 'Y') {
             cin.clear();
-            cout << "Entrada inválida. Deseja jogar novamente? Se sim, digite Y. Para sair, digite qualquer outra tecla." << endl;
-            cin >> choice;
+            break;
         }
     } while (choice == 'y' || choice == 'Y');
     cout << "Obrigado por jogar!" << endl;
