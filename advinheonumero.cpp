@@ -1,15 +1,15 @@
-#include "advinheonumero.h"
+#include "adivinheonumero.h"
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
 
 using namespace std;
-advinheonumero::advinheonumero() {
+adivinheonumero::adivinheonumero() {
     srand(time(0));
     inter = rand() % 1000 +1;
 }
 
-void advinheonumero::promp() {
+void adivinheonumero::promp() {
     int palp;
     if (cin >> palp) {
         if (palp > inter) {
@@ -26,7 +26,7 @@ void advinheonumero::promp() {
     }
     return;
 }
-void advinheonumero::play() {
+void adivinheonumero::play() {
     char choice;
     do {
         inter = rand() % 1000 + 1;

@@ -1,13 +1,13 @@
-#ifndef ADVINHEONUMERO_H
-#define ADVINHEONUMERO_H
+#ifndef ADIVINHEONUMERO_H
+#define ADIVINHEONUMERO_H
 #include <string>
 using namespace std;
 
 
 
-class advinheonumero {
+class adivinheonumero {
 public:
-    advinheonumero();
+    adivinheonumero();
     void promp();
     void play();
 private:

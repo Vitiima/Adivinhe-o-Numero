@@ -1,10 +1,10 @@
 #include <iostream>
-#include "advinheonumero.h"
+#include "adivinheonumero.h"
 using namespace std;
 
 
 int main() {
-    advinheonumero game;
+    adivinheonumero game;
     game.play();
     return 0;
 }
