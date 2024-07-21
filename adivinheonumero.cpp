@@ -10,7 +10,7 @@ adivinheonumero::adivinheonumero() {
 }
 
 void adivinheonumero::promp() {
-    int palp;
+     float palp;
     if (cin >> palp) {
         if (palp > inter) {
             cout << "Muito Alto, Tente Novamente" << endl;
